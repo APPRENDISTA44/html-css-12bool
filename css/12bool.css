@@ -8,9 +8,13 @@
   border: 1px solid black;
   background-color: pink;
   height: 300px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .debug [class*="col-"] > .container [class*="col-"]{
-  background-color: purple;
+  background-color: lightcoral;
+  height: 280px;
 }
 /*fine debug*/
 
@@ -22,7 +26,7 @@
 }
 
 .container{
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
