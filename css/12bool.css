@@ -11,6 +11,7 @@
 }
 .debug [class*="col-"] > .container{
   height: 100%;
+  border: none;
 }
 .debug [class*="col-"] > .container [class*="col-"]{
   background-color: lightcoral;
